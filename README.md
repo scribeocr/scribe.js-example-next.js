@@ -1,3 +1,26 @@
+# Overview
+This example repo shows how [scribe.js](https://github.com/scribeocr/scribe.js) can be used client-side in a Next.js application.
+
+# Instructions
+To run this example locally, perform the following steps.
+```sh
+## Clone the repo
+git clone https://github.com/scribeocr/scribe.js-example-next.js.git
+cd scribe.js-example-next.js
+
+## Install the dependencies
+npm install
+
+## Start the dev server
+npm run dev
+```
+After the server is running, visit the web page indicated, and you will be able to extract text from an image or PDF.
+
+# Notes
+This repo was created by running `npx create-next-app@latest` and then modifying the [pages/index.js](./pages/index.js) file.  The only non-default setting required is hard-coding `process` to `undefined` within the Webpack configuration, which can be seen in the [next.config.mjs](./next.config.mjs) file.  This is necessary to prevent Scribe.js from automatically picking the Node.js implementations of certain features during the Webpack build step (Webpack uses Node.js).
+
+*All content beneath this line is from the Next.js template.*
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
