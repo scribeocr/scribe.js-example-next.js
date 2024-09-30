@@ -12,6 +12,6 @@
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "scribe.js-ocr": "^0.2.6"
+    "scribe.js-ocr": "^0.2.7"
   }
 }
