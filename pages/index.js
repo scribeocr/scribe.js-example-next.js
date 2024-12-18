@@ -31,7 +31,7 @@ export default function Home() {
     return (
         <div>
             <h1>OCR with Scribe.js</h1>
-            <input type="file" onChange={handleFileChange} accept="image/*" />
+            <input type="file" onChange={handleFileChange} />
             {isProcessing ? (
                 <p>{uploadMessage}</p>
             ) : (

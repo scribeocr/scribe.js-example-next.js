@@ -1,5 +1,5 @@
 {
-  "name": "scribe.js-example-next.js3",
+  "name": "scribe.js-example-next.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,6 @@
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "scribe.js-ocr": "^0.5.1"
+    "scribe.js-ocr": "^0.6.1"
   }
 }
